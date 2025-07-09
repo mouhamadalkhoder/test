@@ -1,0 +1,41 @@
+{
+  "products": [
+    {
+      "barcode": "1234",
+      "name": "T-shirt",
+      "colors": ["black", "blue", "white"],
+      "sizes": ["S", "M", "L", "XL"],
+      "similar_products": ["12345", "123456"],
+      "image": "https://ashta.shop/wp-content/uploads/2025/05/Tops-1.png",
+       "price": 19,
+        "images_by_color": {
+              "black": "https://ashta.shop/wp-content/uploads/2025/04/image00037-3-595x793.jpeg",
+               "blue": "https://ashta.shop/wp-content/uploads/2025/04/image00031-5-scaled.jpeg",      
+                "white": "https://ashta.shop/wp-content/uploads/2025/04/image00034-3-595x793.jpeg"
+  }
+    },
+    {
+      "barcode": "12345",
+      "name": "Pants",
+      "colors": ["black", "white"],
+      "sizes": ["M", "L"],
+      "similar_products": ["1234567890123"],
+      "image": "img1.webp",
+      "price": 19
+    },
+   {
+  "barcode": "1234567890123",
+  "name": "تيشيرت",
+  "colors": ["أحمر", "أزرق", "أخضر"],
+  "sizes": ["S", "M", "L", "XL"],
+  "similar_products": ["1234567890124", "1234567890125"],
+  "price": 25.99,
+  "images_by_color": {
+    "blue": "images/tshirt_red.jpg",
+    "black": "images/tshirt_blue.jpg",
+    "white": "images/tshirt_green.jpg"
+  }
+}
+
+  ]
+}

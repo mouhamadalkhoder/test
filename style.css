@@ -1,0 +1,130 @@
+body {
+  font-family: 'Arial', sans-serif;
+  direction: rtl;
+  padding: 20px;
+  background-color: #FFFFFF;
+  color: #333;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  background-color: #FFFFFF;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e0e0e0;
+}
+
+h1, h2, h3 {
+  color: #5EC4B6;
+  margin-bottom: 15px;
+}
+
+input[type="text"] {
+  width: 70%;
+  padding: 12px;
+  font-size: 16px;
+  border: 2px solid #5EC4B6;
+  border-radius: 8px;
+  outline: none;
+  transition: 0.3s;
+}
+
+input[type="text"]:focus {
+  border-color: #4BB1A4;
+  box-shadow: 0 0 6px rgba(94, 196, 182, 0.4);
+}
+
+button {
+  padding: 12px 20px;
+  font-size: 16px;
+  background-color: #5EC4B6;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #4BB1A4;
+}
+
+.hidden {
+  display: none;
+}
+
+#productDetails {
+  margin-top: 30px;
+  background-color: #F8FDFC;
+  padding: 20px;
+  border-radius: 16px;
+  border: 2px solid #5EC4B6;
+  box-shadow: 0 0 12px rgba(94, 196, 182, 0.25);
+  transition: 0.3s;
+}
+
+#similarProductsList li {
+  margin-bottom: 10px;
+  background-color: #EFFBF9;
+  padding: 10px 15px;
+  border-radius: 12px;
+  border: 1px solid #5EC4B6;
+  box-shadow: 0 0 8px rgba(94, 196, 182, 0.15);
+  transition: 0.3s;
+}
+
+.clickable-similar {
+  cursor: pointer;
+}
+
+.clickable-similar:hover {
+  background-color: #d8f5f0;
+  box-shadow: 0 0 10px rgba(94, 196, 182, 0.3);
+  transform: translateY(-2px);
+}
+.product-image {
+  width: 200px;
+  height: auto;
+  border-radius: 12px;
+  margin: 15px auto; /* auto من الجهتين = توسيط أفقي */
+  display: block;
+
+}.color-button {
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;  /* بدل 50% استخدم 8px */
+  border: 2px solid #eee;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.3s ease-in-out;
+  background-color: transparent;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+}
+.color-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 12px; /* هذي المسافة الرأسية بين الأزرار */
+}
+
+.color-buttons {
+  display: flex;
+  gap: 14px; /* المسافة الأفقية بين الأزرار */
+  flex-wrap: wrap;
+  margin: 18px 0;
+  justify-content: flex-start; /* أو center أو flex-end حسب طلبك */
+}
+
+
+.color-button:hover {
+  transform: scale(1.15);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.color-button.selected {
+  border: 2px solid #5EC4B6;
+  box-shadow: 0 0 8px rgba(94, 196, 182, 0.6);
+  transform: scale(1.15);
+}
